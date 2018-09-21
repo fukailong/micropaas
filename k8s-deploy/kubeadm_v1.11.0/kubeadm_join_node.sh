@@ -19,6 +19,5 @@ set -e
 
 # Put "kubeadm join" here from "kubeadm init" output
 # Example: kubeadm join 192.168.37.101:6443 --token mmxy0q.sjqca7zrzzj7czft --discovery-token-ca-cert-hash sha256:099421bf9b3c58e4e041e816ba6477477474614a17eca7f5d240eb733e7476bb	
-kubeadm join 192.168.194.11:6443 --token p5n7sy.imkpt14l829mfsuj --discovery-token-ca-cert-hash sha256:60d50c5b6923940550733dec5ec48e0dcf3c32355f590c70aad846c6ceb72935
-
+kubeadm join 192.168.194.51:6443 --token txifw1.qug3v2exv57j9747 --discovery-token-ca-cert-hash sha256:3339cccbf2efebb36998e9156955e33fb1114aabe1e74550f67ec2d446be650e
 
